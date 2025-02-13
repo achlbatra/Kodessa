@@ -1,12 +1,11 @@
 import React from "react";
-import AboutUs from "../components/AboutUs";
-import Events from "../components/Events";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div>
-      <AboutUs />
-      <Events />
+      <Link href="/about">About Us</Link>
+      <Link href="/events">Events</Link>
     </div>
   );
 }
