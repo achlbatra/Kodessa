@@ -1,0 +1,51 @@
+/* Container for the slider */
+.slider-container {
+  position: relative;
+  width: 80%; /* Adjust as needed */
+  max-width: 900px;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Image container to hold all 3 images */
+.image-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Each image inside the container */
+.image-container img {
+  width: 33.33%; /* Each image takes up 1/3 of the container */
+  display: block;
+  border-radius: 10px;
+}
+
+/* Navigation buttons */
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 50%;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+/* Hover effect on buttons */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}

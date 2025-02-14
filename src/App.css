@@ -1,0 +1,17 @@
+.App{
+    width:100vw !important;
+}
+body{
+    overflow-x: hidden;
+}
+.background{
+    background-image: url('./assets/kodessabg.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height:200vh ;
+    height: auto;
+    width:100%;
+    margin:none;
+    padding:none;
+
+}
