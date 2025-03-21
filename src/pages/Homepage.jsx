@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/Homepage.css';
 import Logo from '../assets/Logo.png'
 import Hero from '../assets/Hero.png';
-import ImageSlider from '../components/ImageSlider';
+import ImageCard from '../components/ImageCard';
 const Homepage = () => {
   return (
     <>
@@ -19,7 +19,7 @@ const Homepage = () => {
             </div>
             <div className="upcoming">
               <h1 className='upcominghead'>UPCOMING EVENTS</h1>
-              <ImageSlider/>
+              <ImageCard/>
               <a >GO TO EVENTS PAGE 🚀</a>
             </div>
            
