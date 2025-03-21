@@ -1,0 +1,43 @@
+.image_background{
+  display: flex;
+  justify-content: center;
+  height: 270px;
+  width: 270px;
+  background-image: url('../assets/green_bg.png');
+  background-size: 100%;
+  margin-top: 20px;
+}
+img{
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: -50px;
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .image_background {
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+  }
+
+  img {
+    height: 80px;
+    width: 80px;
+    top: -40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .image_background {
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+  }
+
+  img {
+    height: 60px;
+    width: 60px;
+    top: -30px;
+  }
+}

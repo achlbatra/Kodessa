@@ -1,0 +1,49 @@
+.WallOfFame{
+  background-image: url('../assets/background.png');
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading{
+  width: 86%;
+  height: 80px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  font-family:'Franklin Gothic Medium';
+  font-size: 50px;
+  color: #ff7f7f;
+  text-shadow: 2px 2px 0px white, 4px 4px 0px rgba(0, 0, 0, 0.3);
+  letter-spacing: 6px;
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .WallOfFame {
+    height: 1000px;
+  }
+
+  .heading {
+    width: 90%;
+    height: 70px;
+    font-size: 35px;
+    letter-spacing: 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  .WallOfFame {
+    height: 800px;
+  }
+
+  .heading {
+    width: 95%;
+    height: 60px;
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+}

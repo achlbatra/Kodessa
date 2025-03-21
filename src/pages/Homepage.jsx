@@ -3,6 +3,9 @@ import './styles/Homepage.css';
 import Logo from '../assets/Logo.png'
 import Hero from '../assets/Hero.png';
 import ImageCard from '../components/ImageCard';
+import Footer from '../components/Footer';
+import Container from '../components/Container';
+
 const Homepage = () => {
   return (
     <>
@@ -24,6 +27,8 @@ const Homepage = () => {
             </div>
            
         </div>
+        <Container />
+        <Footer />
     </>
   )
 }

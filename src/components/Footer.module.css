@@ -1,0 +1,165 @@
+.footerbox{
+  background-image:url('../assets/footerBg.png');
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  margin-top: 40px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top: 2px solid rgb(225, 180, 180);
+}
+
+.footer1{
+  height: 120px;
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.text1{
+  font-size: 15px;
+  color: #A82E1E;
+}
+.text2{
+  font-size: 15px;
+  color:#320458;
+}
+.logos{
+  position: relative;
+  bottom: 30px;
+  left: 250px;
+  display: flex;
+  width: 30%;
+  height: 40px;
+  justify-content: space-evenly;
+}
+.girlswhocode{
+  height: 50px;
+  width: 100px;
+}
+.kiit, .kodessa{
+  background-blend-mode: overlay;
+  height: 50px;
+  width: 60px;
+}
+@media (max-width: 768px) {
+  .footerbox {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .footer1 {
+    width: 30%;
+    height: auto;
+    padding: 5px;
+  }
+
+  .text1, .text2 {
+    font-size: 8px;
+  }
+
+  .logos {
+    width: 100%;
+    height: 35px;
+    bottom: 10px;
+  }
+
+  .girlswhocode {
+    height: 40px;
+    width: 80px;
+  }
+
+  .kiit, .kodessa {
+    height: 40px;
+    width: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footerbox {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .footer1 {
+    width: 48%; 
+    padding: 5px;
+    height: auto;
+    text-align: center;
+  }
+
+  .text1, .text2 {
+    font-size: 10px;
+  }
+
+  .logos {
+    position: relative;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .girlswhocode {
+    height: 30px;
+    width: 60px;
+  }
+
+  .kiit, .kodessa {
+    height: 30px;
+    width: 45px;
+  }
+}
+
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .footerbox {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .footer1 {
+    width: 48%;
+    padding: 5px;
+    height: auto;
+    text-align: center;
+  }
+
+  .text1, .text2 {
+    font-size: 10px;
+  }
+
+  .logos {
+    position: relative;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .girlswhocode {
+    height: 30px;
+    width: 60px;
+  }
+
+  .kiit, .kodessa {
+    height: 30px;
+    width: 45px;
+  }
+}
