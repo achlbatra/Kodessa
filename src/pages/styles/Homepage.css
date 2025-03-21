@@ -1,0 +1,141 @@
+
+
+.main{
+    width:auto;
+    margin: 8rem 7rem 0 7rem;
+    background-color: #FFFEFE;
+    height: auto;
+    padding:none;
+
+
+}
+.title{
+    font-family: "Inika", serif;
+    font-weight: 700;
+    font-style: normal;
+    color:#E57474;
+    font-size: 70px;
+    padding-top: 5rem;
+    margin:2rem;
+    line-height:5rem;
+}
+.top{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.image{
+    z-index: 1;
+    justify-content: flex-end;
+    width: 400px;
+    position: absolute;
+    right:0;
+    margin: 0;
+    padding: 0;
+    
+}
+.logo{
+    z-index: 1;
+    position: absolute; 
+    width:200px;
+    left: 3rem;
+    top:2rem;
+}
+
+.box{
+    background-image: url('../../assets/image.png');
+    background-position: center;
+    background-size: cover;
+    width: 700px;
+    height: auto;
+    margin-left: 50px;
+    border-radius: 40px;
+    color:#832BA9;
+    p{
+        padding:50px 30px 50px 20px ;
+        font-size: 25px;
+    }
+
+}
+.upcominghead{
+    color: #FBD1D5;
+    font-size: 60px;
+    font-family: "Moul", serif;
+    font-weight: 700;
+    margin-left: 13vw;
+    text-shadow: 
+        5px 5px 0px #FA6D6D,          
+        -5px -5px 0px #FA6D6D,        
+        5px -5px 0px #FA6D6D,         
+        -5px 5px 0px #FA6D6D,
+        11px 11px 6px rgba(0,0,0,0.3);
+    margin-top: 70px;
+   
+
+}
+.upcoming{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    a{
+         color: #832BA9;
+         font-size: 30px;
+         text-align: center;
+         font-weight: 400;
+         cursor: pointer;
+         margin-top: 20px ;
+
+    }
+    a:hover{
+        color:#a949d3;
+        text-decoration: underline;
+    }
+}
+@media (max-width: 768px){
+    .main{
+        margin-top: 8rem ;
+        width:87vw;
+        margin-left: 5vw;
+        align-self: center;
+    }
+    .image{
+        width: 40%;
+    }
+    .box{
+        width: 87%;
+        margin-left: 10px;
+        p{
+            font-size: 18px;
+        }
+    }
+    .logo{
+        width:120px;
+        left: 1.5vw;
+        top:14vh;
+    }
+     
+    .title{
+        font-size: 60px;
+        line-height: 4rem;
+        width: 50vw;
+    }
+
+    .upcominghead{
+        font-size: 40px;
+        margin-left: 13vw;
+        text-shadow: 
+        4px 4px 0px #FA6D6D,          
+        -3px -3px 0px #FA6D6D,        
+        3px -3px 0px #FA6D6D,         
+        -3px 3px 0px #FA6D6D,
+        7px 7px 6px rgba(0,0,0,0.3);
+    }
+    .upcoming{
+        a{
+            font-size: 18px;
+
+        }
+
+    }
+
+}
